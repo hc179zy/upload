@@ -186,7 +186,7 @@ class Upload{
            	 	continue;
         	}
         	//判断图片是否有效
-        	if(in_array($file['exts'],self::$extsImg)){
+        	if(in_array($file['exts'],self::$config['extsImg'])){
 	        	$filename_arr = getimagesize($filename);
 	        	if($filename_arr===false){
 	        		self::$upfileerror[] = $file['name'].'图片无效';
