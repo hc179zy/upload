@@ -1,0 +1,20 @@
+{
+    "name": "hcgrzh/upload",
+    "description": "upload class",
+    "type": "library",
+	"license": "MIT",
+    "require": {
+        "php": ">=7.2"
+    },
+    "authors": [
+        {
+            "name": "hcgrzh",
+            "email": "hc_179zy@163.com"
+        }
+    ],
+	"autoload": {
+		"psr-4": {
+			"hcgrzh\\upload\\": "src"
+		}
+	}
+}
